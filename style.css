@@ -1,0 +1,21 @@
+p {
+	font-size: 120px;
+	text-align: center; 
+	font-family: 'Zen Tokyo Zoo', cursive;
+	overflow: hidden;
+	margin: 20vh auto;
+	height: 10vh;
+	animation: animate 5s;
+	
+
+
+	
+}
+
+@keyframes animate {
+	0%{opacity: 0; filter: blur(10px); transform: scale(12);}
+}
+
+body {
+	background-color: rgb(68, 131, 140);
+}
